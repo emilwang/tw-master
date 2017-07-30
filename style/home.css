@@ -1,0 +1,176 @@
+body, html, #root, #root > div{
+	height:  100%;
+	width:  100%;
+}
+
+body {
+	background-color: #fffddf;
+}
+
+#root{
+	padding: 25px;
+}
+
+
+#home{
+    width:100%;
+    height: calc(100% - 30px);
+}
+
+hr{
+	margin: 0;
+  border-top: 3px solid #888787;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+li{
+	padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+li .context{
+	width: 40px;
+}
+
+
+button{
+	border-radius: 10px;
+  border: 1px solid;
+  margin-right: 10px;
+}
+
+#root > div > div {
+	padding-bottom: 10px;
+	overflow: auto;
+}
+
+.login{
+	display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.homeContanier{
+	display: flex;
+  justify-content: space-between;
+}
+
+.homeContanier >span{
+	  font-size: 35px;
+    font-weight: bold;
+}
+  
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 40px;
+    height: 30px;
+    box-sizing: content-box;
+}
+.nav >a {
+	text-decoration: none;
+    border: 2px solid black;
+    width: 80px;
+    text-align: center;
+    margin: 1px 1px 0 1px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.custcontainer{
+	border: 2px solid black;
+    height: calc(100% - 50px);
+
+}
+
+.custcontainer .headContainer{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid;
+    background-color: #ada7a7;
+}
+
+.custcontainer .headContainer  span{
+	margin: 5px;
+}
+
+.title{
+	  font-size: 20px;
+    font-weight: bold;
+}
+
+.filter{
+	  width: 80px;
+    border: 1px solid;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.filterContainer{
+    display: flex;
+    height: calc(100% - 40px);
+}
+.agentItemContainer{
+	  border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.circle{
+	  width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 50px;
+    background-color: #c5c1c1;
+}
+
+.popoverBottom {
+	max-width: none;
+}
+
+.selectedTab {
+	background-color: #ada7a7;
+}
+
+.selectedFilter {
+	background-color: #bda5a5;
+}
+
+.resourceInput{
+	width: 500px;
+	margin:  5px 0;
+	display: block;
+}
+
+.deleteResource{
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 10px 0 5px;
+}
+
+.agentsContext{
+	flex: 1;
+	margin: 20px 0 20px 20px;
+}
+
+.agentsList{
+	  border-left: 2px solid;
+    margin: 0 20px;
+    padding: 20px;
+}
